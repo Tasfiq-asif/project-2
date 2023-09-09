@@ -166,7 +166,7 @@ img {
 
 .nav__close{
   position: absolute;
-  top: 1rem;
+  top: 0;
   right: 1.5rem;
 
 }
