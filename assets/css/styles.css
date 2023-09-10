@@ -180,8 +180,37 @@ img {
 
 
 /*=============== HOME ===============*/
+.home{
+  position: relative;
+}
 
+.home__container{
+  padding-top: 8rem;
+  height: 100vh;
 
+}
+
+.home__content{
+  position: relative;
+  z-index: 2;
+}
+
+.home__data{
+  display: grid;
+  row-gap: .5rem;
+}
+
+.home__subtitle{
+  font-size: var(--small-font-size);
+  color: var(--first-color);
+  letter-spacing: 3px;
+}
+
+.home__title{
+  font-size: var(--biggest-font-size);
+  font-family: var(--second-font);
+  color: var(--title-color);
+}
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 
