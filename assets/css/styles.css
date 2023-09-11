@@ -246,7 +246,7 @@ img {
 
 .home__images{
   z-index: 1;
-}
+ }
 
 .home__images img{
   position: absolute;
@@ -254,7 +254,7 @@ img {
   width: 600px;
   left: -7rem;
   bottom: 0;
-}
+} 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 @media screen and (max-width: 305px){
@@ -274,7 +274,7 @@ img {
     padding-top: 10rem;
   }
 
-  .home_images img{
+  .home__images img{
     width: 700px;
     left: -12rem;
   }
@@ -289,7 +289,11 @@ img {
     max-width: 385px;
   }
 
-  .home__images{
+  .home__bird-2{
+    right: -3rem;
+  }
+
+  .home__images img{
     width: initial;
     left: 0;
   }
@@ -337,9 +341,47 @@ img {
   .home__description{
     margin-bottom: 3rem;
   }
-
-
   
+}
+
+@media screen and (min-width: 1120px) {
+  .container{
+    margin-inline: auto;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .home-container{
+    height: 950px;
+    padding-top: 10rem;
+  }
+  .home__bird-1,
+  .home__bird-2{
+    width: 80px;
+  }
+
+  .home__bird-1{
+    bottom: -7rem;
+    left: -7rem
+  }
+  .home__bird-2{
+    top: 0;
+    right: -6rem;
+  }
+
+  .home__images img{
+    bottom: -3rem;
+  }
+
+  ::-webkit-scrollbar{
+    width: .6rem;
+    border-radius: .5rem;
+    background-color: hsl(220, 24%, 15%);
+  }
+    ::-webkit-scrollbar-thumb {
+      border-radius: .5rem;
+      background-color: hsl(220, 24%, 25%);
+    }
 }
 
 /* For 2K resolutions (2048 x 1152) */
