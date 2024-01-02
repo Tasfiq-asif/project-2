@@ -9,3 +9,5 @@
 
 
 ![preview img](/preview.png)
+
+Live view: https://tasfiq-asif.github.io/project-2/
